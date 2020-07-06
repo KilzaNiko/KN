@@ -1,0 +1,21 @@
+_Delays
+_General
+_Hourly
+_Guardian
+_Expedition
+_Astroleague
+_Champion
+_Filter
+_DragonFilter
+Attack PVP
+Attack Champion
+Farm Forever
+Farm Rare
+Farm Golem
+Farm Gem
+Farm Astromon
+Farm Guardian
+Farm Starstone
+Farm Dragon
+Farm Wings
+Farm Hero Dungeons

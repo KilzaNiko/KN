@@ -1,0 +1,13 @@
+#include-once
+#include "scripts/Attack_Champion.au3"
+#include "scripts/Attack_PVP.au3"
+#include "scripts/attackGuided.au3"
+#include "scripts/doBingo.au3"
+#include "scripts/doDailies.au3"
+#include "scripts/doExpedition.au3"
+#include "scripts/doGoldDungeon.au3"
+#include "scripts/doSpecialGuardian.au3"
+#include "scripts/Farm_Dragon.au3"
+#include "scripts/Farm_Forever.au3"
+#include "scripts/Farm_wings.au3"
+#include "scripts/Farm_Hero_Dungeons.au3"
