@@ -1,0 +1,36 @@
+  __  __  _____ _          _  ___   _ 
+ |  \/  |/ ____| |        | |/ / \ | |
+ | \  / | (___ | |  ______| ' /|  \| |
+ | |\/| |\___ \| | |____  |  < | . ` |
+ | |  | |____) | |____  |_| . \| |\  |
+ |_|  |_|_____/|______|   |_|\_\_| \_|._KN    
+ _______________________________________________________________________
+|	    		[F]IX / [A]DD / [I]MPROVED			|
+|-----------------------------------------------------------------------|
+|[F]Gem upgrade 							|
+|[F]Stones recognition							|
+|[A]Starstone L/D filter 						|
+|[F]Feed Astromon (Improved)						|
+|[A]Farm Hero Dungeon [KN]						|
+|[A]Collect inbox hourly						|
+|[A]Collect friend gifts						|
+|[A]Shiva hero dungeon [KN]						|
+|[A]Add level's farm golem						|
+|[A]Custom delay confirm button friend gifts				|
+|[A]Buy Secret Egg in shop						|
+|[I]Farm Hero Dungeon [KN]						|
+|[A]Collect astrogems of the friend list				|
+|[A]Astromons added for "Farm Astromon" script				|
+|[A]Custom delay for release confirm button in Farm_Gem			|
+|[F]Fixed double click when collecting quest in "capture and challenges"|
+|[A]Add custom delay for collect hiddens				|
+|[A]Collect chest of the Super Festival					|
+|_______________________________________________________________________|
+
+ENGLISH._
+When you first start the bot, you must configure the script "_Config",
+then close the bot and start it, and you can start using it normally.
+
+ESPAÑOL._
+Cuando inicies por primera vez el bot, debe configurar el script "_Config",
+luego cerrar el bot e iniciarlo, y ya puedes comenzar a utilizarlo normalmente.
