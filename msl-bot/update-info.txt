@@ -1,3 +1,0 @@
-v4.1.0 Update Log:
-- Update consists of mainly bug fixes and new algorithms for existing functions.
-* If you have an problem/bug with this current version, before posting for help, reinstall a new set of files from GitHub or through Discord.

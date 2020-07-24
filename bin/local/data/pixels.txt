@@ -1,9 +1,0 @@
-astroleague-random:286,228,0xB10D28/286,228,0xF50C43
-confirm-feed:410,309,0xF6E446|378,309,0x006A71|419,239,0xA1938C
-attacks-available-hero-dungeons:196,96,0xFFF209/197,97,0xFFF309
-rare-astromon-found:397,218,0xC3FF2C/397,328,0xD3FF31
-friend-requests-active:613,109,0xE80B37/627,109,0xE80C38
-attack-animation:614,393,0x967769/658,388,0xAD8D7C
-shield-friend-list:461,220,0x0E8580
-monsters-awakened-enabled:480,393,0xEDCC3D
-monsters-evolve-enabled:675,392,0xEDCC3D
