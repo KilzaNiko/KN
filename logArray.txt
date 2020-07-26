@@ -17,4 +17,5 @@
 [A] Collect chest of the Super Festival
 [A] Timer of the Target Boss
 [F] Fixed could not find friends list
-[A] Collect Free Trinkets summons 	
+[A] Collect Free Trinkets summons
+[I]  Astromonsters Association
