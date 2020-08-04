@@ -360,8 +360,8 @@
 	]
 
 	[combo:
-		name: "Get Daily Eggs",
-		description: "Check to see if you have free egg summons waiting.",
+		name: "Get Daily Eggs and Trinkets",
+		description: "Check to see if you have free Egg and Trinkets summons waiting.",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
