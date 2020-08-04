@@ -348,20 +348,20 @@
 	[combo:
 		name: "Check Exotic Festival",
 		description: "Check to see if you have an exotic festival ticket waiting.",
-		default: "Enabled",
+		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
 
 	[combo:
 		name: "Collect Inbox",
 		description: "Collect the energy and gold obtained from the hourly hidden and friend gifts.",
-		default: "Enabled",
+		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
 
 	[combo:
 		name: "Get Daily Eggs and Trinkets",
-		description: "Check to see if you have free Egg and Trinkets summons waiting.",
+		description: "Check to see if you have free egg summons waiting.",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
