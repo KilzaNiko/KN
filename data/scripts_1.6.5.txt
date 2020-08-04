@@ -348,14 +348,14 @@
 	[combo:
 		name: "Check Exotic Festival",
 		description: "Check to see if you have an exotic festival ticket waiting.",
-		default: "Disabled",
+		default: "Enabled",
 		data: "Enabled,Disabled"
 	]
 
 	[combo:
 		name: "Collect Inbox",
 		description: "Collect the energy and gold obtained from the hourly hidden and friend gifts.",
-		default: "Disabled",
+		default: "Enabled",
 		data: "Enabled,Disabled"
 	]
 
