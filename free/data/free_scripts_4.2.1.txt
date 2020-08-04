@@ -649,7 +649,7 @@
 		name: "Stone Element",
 		description: "Enter which element to count. This will count towards the High, Mid, Low stones stats.",
 		default: "Any",
-		data: "Any,Water,Fire,Wood"
+		data: "Any,Water,Fire,Wood,Dark,Light"
 	]
 	
 	[text:
