@@ -229,6 +229,13 @@
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
+
+	[combo:
+		name: "Get Daily Eggs and Trinkets",
+		description: "Check to see if you have free Egg and Trinkets summons waiting.",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
 ]
 
 [_Guardian:
