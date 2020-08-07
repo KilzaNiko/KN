@@ -1276,16 +1276,16 @@ You can add this script to Dailies Scripts, to enable it you must do it in _Gene
 	
 	[combo:
 		name: "Hero",
-		description: "Hero who is farmed. [First: Persephone (Water) | Second: Wukong (Fire) | Third: Gilgamesh (Wood) | Fourth: Shiva (Fire) | Fifth: Sha Wujings (Water)]",
+		description: "[First: Persephone (Water) | Second: Wukong (Fire) | Third: Gilgamesh (Wood) | Fourth: Shiva (Fire) | Fifth: Sha Wujings (Water) | Sixth: Zhu Bajies (Wood)], Auto: Start from the first hero and level 3, in case you have the level locked, the bot will unlock the levels automatically in case this hero dungeon is complete, the script select the next hero.",
 		default: "First",
-		data: "First,Second,Third,Fourth,Fifth"
+		data: "Auto,First,Second,Third,Fourth,Fifth,Sixth"
 	]
 
 	[combo:
 		name: "Dungeon Level",
-		description: "Enter the dungeon level.",
-		default: "3",
-		data: "1,2,3"
+		description: "Enter the dungeon level, If you select auto, the default boot will choose level 3 and if it is closed, the bot will choose a lower level and thus unlock closed levels",
+		default: "Auto",
+		data: "Auto,1,2,3"
 	]
 
 	[combo:
