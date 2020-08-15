@@ -175,27 +175,33 @@
 	]
 	
 	[text:
-		name: "Guided Auto Delay",
+		name: "Guided Auto",
 		description: "Amount of delay between clicks in milliseconds. Default is 100 ms. Faster computers can do 0 ms.",
 		default: "100"
 	]
 	
 	[text:
-		name: "Confirm Button Friend Gifts Delay",
+		name: "Confirm Button Friend Gifts",
 		description: "Time of wait for click in the confirm button. Default is 700 ms. Faster computers can do 100 ms.",
 		default: "700"
 	]
 
 	[text:
-		name: "Collect Hiddens Delay",
+		name: "Collect Hiddens",
 		description: "Time of wait for click in the confirm button. Default is 0 ms. Faster computers can do 0 ms, if your pc is slow is recommend use 500",
 		default: "0"
 	]
 
 	[text:
-		name: "Click Friends Delay",
+		name: "Click Friends",
 		description: "Delay in which you wait to click on the 'friends' tab, this is used when you have pending invitations.",
 		default: "1000"
+	]
+
+	[text:
+		name: "Collect Friends Gems",
+		description: "Waiting time to collect gems from friends, If your internet connection is slow, you should increase the delay.",
+		default: "1500"
 	]
 ]
 
@@ -236,19 +242,6 @@
 		default: "20"
 	]
 
-	[combo:
-		name: "Dailies Hero Dungeons",
-		description: "If this option is Enabled, the Farm_Hero_Dungeons run in Dailies Scripts.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
-
-	[combo:
-		name: "Dailies Super Festival",
-		description: "'Dailies Script' collect the chest daily of the Super Festival in case of being active.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
 ]
 
 [_Hourly:
@@ -362,6 +355,38 @@
 	[combo:
 		name: "Get Daily Eggs and Trinkets",
 		description: "Check to see if you have free egg summons waiting.",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+]
+
+[_Dailies:
+	[description: "Configuration for Dailies tasks. This script runs once a day automatically or it can be activated manually from the top menu 'scripts'."]
+	
+	[combo:
+		name: "Dungeon Normal Level",
+		description: "Level to be entered in the daily.",
+		default: "1",
+		data: "1,2,3,4,5,6,7,8,9,10"
+	]
+
+	[combo:
+		name: "Dungeon Elemental Level",
+		description: "Level to be entered in the daily.",
+		default: "1",
+		data: "1,2,3,4,5,6,7,8,9,10"
+	]
+
+	[combo:
+		name: "Hero Dungeons",
+		description: "The 3 daily attacks will be carried out in this script.",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+
+	[combo:
+		name: "Super Festival",
+		description: "Collect the chest daily of the Super Festival in case of being active.",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
