@@ -39,10 +39,10 @@ map-stage-normal:646,77,0xF0DF5C
 max-round-2:794,539,0xF0E05B|790,544,0xEFE05B|793,541,0xD9CB53/794,539,0xD6C852|790,544,0xDCCE54|793,541,0xA39940
 max-round-3:792,543,0x0D0D0C|793,538,0xF1E25C|794,543,0xF2E25C/792,543,0x1A1910|793,538,0xC8BB4D|794,543,0xE8DA59
 max-round-4:794,538,0xEADB59|790,542,0xE9DA59|794,545,0xEADB59/794,538,0xE0D256|790,542,0xD4C652|794,545,0xD0C350
-monsters-awakened-enabled:480,393,0xEDCC3D
+monsters-awakened-enabled:425,394,0xE4B05C
 monsters-evolution-second:356,129,0xD9D5D0/356,129,0xB1ADA9
 monsters-evolution-third:360,129,0xDDD9D4/360,129,0xB8B3AE
-monsters-evolve-enabled:675,392,0xEDCC3D
+monsters-evolve-enabled:656,393,0x0A1414
 monsters-feed-10:333,398,0x33F09A
 monsters-not-awakened-first:439,198,0x1C1311|461,172,0x7D624D
 monsters-not-awakened-second:501,198,0x1C1311|523,172,0x7D624D
@@ -73,6 +73,8 @@ village-missions-popup:60,330,0xD8CCC6|56,330,0xEBE3DD|55,331,0xF2ECE6|55,338,0x
 village-pack:776,106,0xE4CFB5|776,112,0xDBBA9F|783,112,0xDBBA9F|783,106,0xE4CFB5
 village-summon-egg:667,460,0x047075
 
+friends-send-to-all-disabled:712,161,0x7B4A36
+village-summon-free:432,436,0xFFBB08
 astroleague-random:286,228,0xB10D28/286,228,0xF50C43
 confirm-feed:410,309,0xF6E446|378,309,0x006A71|419,239,0xA1938C
 attacks-available-hero-dungeons:196,96,0xFFF209/197,97,0xFFF309
@@ -82,3 +84,5 @@ attack-animation:614,393,0x967769/658,388,0xAD8D7C
 shield-friend-list:461,220,0x0E8580
 monsters-awakened-enabled:480,393,0xEDCC3D
 monsters-evolve-enabled:675,392,0xEDCC3D
+hero-dungeon-completed:336,331,0xC32420|415,331,0xC32420
+summon-ads-paused:500,361,0xFFFDFF|523,361,0x4081F7|614,361,0x3E82F7|700,361,0xFFFFFF
