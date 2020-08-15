@@ -378,6 +378,13 @@
 	]
 
 	[combo:
+		name: "Dungeon Guided Auto",
+		description: "Guided Auto for Dungeons Enter type of guided auto. Full guided will attack one enemy per one ally. Semi guided will select first astromon in the first round and auto attack.",
+		default: "Disabled",
+		data: "Full,Semi,Disabled"
+	]
+
+	[combo:
 		name: "Hero Dungeons",
 		description: "The 3 daily attacks will be carried out in this script.",
 		default: "Disabled",
