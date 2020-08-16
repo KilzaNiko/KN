@@ -200,8 +200,8 @@
 
 	[text:
 		name: "Collect Friends Gems",
-		description: "Waiting time to collect gems from friends, If your internet connection is slow, you should increase the delay.",
-		default: "1500"
+		description: "Waiting time to collect gems from friends, If your internet connection is slow, you should increase the delay or if at the time of sending energy to friends the bot does not charge the gems, you must increase the number of this option.",
+		default: "2500"
 	]
 ]
 
