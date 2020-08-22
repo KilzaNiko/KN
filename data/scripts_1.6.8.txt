@@ -339,13 +339,6 @@
 	]
 
 	[combo:
-		name: "Check Exotic Festival",
-		description: "Check to see if you have an exotic festival ticket waiting.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
-
-	[combo:
 		name: "Collect Inbox",
 		description: "Collect the energy and gold obtained from the hourly hidden and friend gifts.",
 		default: "Disabled",
@@ -401,6 +394,13 @@
 	[combo:
 		name: "Super Festival",
 		description: "Collect the chest daily of the Super Festival in case of being active.",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+
+	[combo:
+		name: "Check Exotic Festival",
+		description: "Check to see if you have an exotic festival ticket waiting.",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
