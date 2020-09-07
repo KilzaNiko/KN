@@ -290,6 +290,20 @@
 	]
 
 	[combo:
+		name: "Gold Dungeon Target Boss",
+		description: "During the final round, you can choose to target boss for efficiency.",
+		default: "Enabled",
+		data: "Enabled,Disabled"
+	]
+
+	[combo:
+		name: "Three Gold Dungeon Attacks",
+		description: "If there is more than 1 attack available, he will surrender until he has 1 attack and will complete the dungeon.",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+
+	[combo:
 		name: "Special Guardian Dungeon",
 		description: "Check for special guardian dungeon every hour.",
 		default: "Enabled",
@@ -320,6 +334,13 @@
 	[combo:
 		name: "Buy Elemental Egg",
 		description: "Buy Elemental Egg (Water, Wood and Fire), in case there is a elemental egg available. [The 'Shop Buy' script must be activated]",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+
+	[combo:
+		name: "Buy Light Dark Low Egg",
+		description: "Buy Light / Dark low egg, in case there is a L/D low egg available. [The 'Shop Buy' script must be activated]",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
@@ -1322,9 +1343,9 @@ You can add this script to Dailies Scripts, to enable it you must do it in _Gene
 	
 	[combo:
 		name: "Hero",
-		description: "[First: Persephone (Water) | Second: Wukong (Fire) | Third: Gilgamesh (Wood) | Fourth: Shiva (Fire) | Fifth: Sha Wujings (Water) | Sixth: Zhu Bajies (Wood)], Auto: Start from the first hero and level 3, in case you have the level locked, the bot will unlock the levels automatically in case this hero dungeon is complete, the script select the next hero.",
+		description: "Hero to farm, Auto: Start from the first hero and level 3, in case you have the level locked, the bot will unlock the levels automatically in case this hero dungeon is complete, the script select the next hero.",
 		default: "First",
-		data: "Auto,First,Second,Third,Fourth,Fifth,Sixth"
+		data: "Auto,Persephone-Water,Sun-Wukong-Fire,Gilgamesh-Wood,Shiva-Fire,Sha-Wujing-Water,Zhu-Bajie-Wood"
 	]
 
 	[combo:
