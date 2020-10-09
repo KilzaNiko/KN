@@ -1345,7 +1345,7 @@ You can add this script to Dailies Scripts, to enable it you must do it in _Gene
 		name: "Hero",
 		description: "Hero to farm, Auto: Start from the first hero and level 3, in case you have the level locked, the bot will unlock the levels automatically in case this hero dungeon is complete, the script select the next hero.",
 		default: "Auto",
-		data: "Auto,Persephone-Water,Sun-Wukong-Fire,Gilgamesh-Wood,Shiva-Fire,Sha-Wujing-Water,Zhu-Bajie-Wood"
+		data: "Auto,Persephone-Water,Sun-Wukong-Fire,Gilgamesh-Wood,Shiva-Fire,Sha-Wujing-Water,Zhu-Bajie-Wood,Hades-Fire"
 	]
 
 	[combo:
