@@ -58,25 +58,25 @@
 
 	[text:
 		name: "ADB Path",
-		description: "Path to adb executable. Default for nox is: C:\Program Files (x86)\Nox\bin\nox_adb.exe",
-		default: "C:\Program Files (x86)\Nox\bin\nox_adb.exe"
+		description: "Path to adb executable. Default for LDPlayer is: C:\XuanZhi\LDPlayer\adb.exe",
+		default: "C:\XuanZhi\LDPlayer\adb.exe"
 	]
 	
 	[text:
 		name: "ADB Device",
-		description: "Default for first nox emulator: 127.0.0.1:62001. Refer to guide to see how to find device.",
-		default: "127.0.0.1:62001"
+		description: "Default for first LDPlayer emulator: emulator:5554 or 127.0.0.1:5555. Refer to guide to see how to find device.",
+		default: "127.0.0.1:5555"
 	]
 	
 	[text:
 		name: "ADB Shared Folder1",
-		description: "Shared folder within the emulator. Default for nox: /mnt/shared/App/",
+		description: "Shared folder within the emulator. Default for LDPLayer: /mnt/shared/App/",
 		default: "/mnt/shared/App/"
 	]
 	
 	[text:
 		name: "ADB Shared Folder2",
-		description: "Shared folder in windows directory. Default for nox is: C:\Users\[USER NAME]\Nox_share\App\",
+		description: "Shared folder in windows directory. Default for LDPlayer is: C:\Users\[USER NAME]\Documents\XuanZhi\Applications\",
 		default: "~"
 	]
 	
@@ -90,20 +90,20 @@
 	[combo:
 		name: "ADB Input Event Version",
 		description: "0 is the most stable, but runs slower. 1 is faster, but does not work well with slower computers.",
-		default: "0",
+		default: "1",
 		data: "0,1"
 	]
 	
 	[text:
 		name: "Emulator Title",
 		description: "This can be found using the AutoIt Window Info, using the Finder Tool.",
-		default: "NoxPlayer"
+		default: "LDPlayer"
 	]
 	
 	[text:
 		name: "Emulator Property",
 		description: "Properties include: CLASS, TEXT, INSTANCE, X, Y, WIDTH, HEIGHT. Information can be found using AutoIt Window Info.",
-		default: "[CLASS:Qt5QWindowIcon; TEXT:ScreenBoardClassWindow]"
+		default: "[CLASS:subWin; INSTANCE:1]"
 	]
 
 	[text:
@@ -121,8 +121,8 @@
 	
 	[combo:
 		name: "Mouse Mode",
-		description: "Mode of sending clicks to emulators. Control: Sends click messages directly to emulator. ADB: Sends command to emulator ADB, generally slower. Real: Uses mouse cursor to click emulator screen.",
-		default: "Control",
+		description: "Mode of sending clicks to emulators. Control: Sends click messages directly to emulator (Every time you click, it brings the window in front). ADB: Sends command to emulator ADB. Real: Uses mouse cursor to click emulator screen.",
+		default: "ADB",
 		data: "Control,ADB,Real"
 	]
 	
@@ -240,6 +240,20 @@
 		name: "Max Exotic Chips",
 		description: "The number of chip attempts to use on a single exotic monster.",
 		default: "20"
+	]
+
+	[combo:
+		name: "Ads Back Control",
+		description: "In case the back does not work at the end of the ad, it will be tried with this type of back Control (only activate if the ads script works badly).",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+
+	[combo:
+		name: "Ads Back Real",
+		description: "In case the back does not work at the end of the ad, it will be tried with this type of Real back, this option occupies the real keyboard, it is not recommended to have it activated if it occupies the pc while occupying the bot (only activate if the ads script works badly).",
+		default: "Disabled",
+		data: "Enabled,Disabled"
 	]
 
 ]
@@ -1345,7 +1359,7 @@ You can add this script to Dailies Scripts, to enable it you must do it in _Gene
 		name: "Hero",
 		description: "Hero to farm, Auto: Start from the first hero and level 3, in case you have the level locked, the bot will unlock the levels automatically in case this hero dungeon is complete, the script select the next hero.",
 		default: "Auto",
-		data: "Auto,Persephone-Water,Sun-Wukong-Fire,Gilgamesh-Wood,Shiva-Fire,Sha-Wujing-Water,Zhu-Bajie-Wood"
+		data: "Auto,Persephone-Water,Sun-Wukong-Fire,Gilgamesh-Wood,Shiva-Fire,Sha-Wujing-Water,Zhu-Bajie-Wood,Hades-Fire"
 	]
 
 	[combo:
