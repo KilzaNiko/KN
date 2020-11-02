@@ -9,7 +9,7 @@
 	
 	[combo:
 		name: "Scheduled Restart",
-		description: "Restart game to prevent lagging overtime. MSL seems to lag after a long time. Game means just restart game process without restarting emulator. Nox means restarting the entire Nox process.",
+		description: "Restart game to prevent lagging overtime. MSL seems to lag after a long time. Game means just restart game process without restarting emulator. LDPlayer means restarting the entire LDPlayer process.",
 		default: "Never",
 		data: "Never,Game:1H,Game:2H,Game:3H,Game:4H,Game:5H,Game:6H,Game:7H,Game:8H,Game:9H,Game:10H,Game:11H,Game:12H,Nox:1H,Nox:2H,Nox:3H,Nox:4H,Nox:5H,Nox:6H,Nox:7H,Nox:8H,Nox:9H,Nox:10H,Nox:11H,Nox:12H"
 	]
@@ -21,7 +21,7 @@
 		data: "Never,3 Minutes,5 Minutes,10 Minutes,20 Minutes,30 Minutes,40 Minutes,50 Minutes,60 Minutes"
 	]
     
-    	[combo:
+    [combo:
 		name: "Another Device Timeout",
 		description: "Number of minutes it takes until bot app decides to re-login to the game.",
 		default: "Immediately",
@@ -52,44 +52,37 @@
 	[combo:
 		name: "Log Clicks",
 		description: "Log click types.",
-		default: "Enabled",
+		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
 
-  	[combo:
-    		name: "Ask For Updates",
-    		description: "Prompt user for update when there is a new version.",
-    		default: "Enabled",
-    		data: "Enabled,Disabled"
-  	]
-
 	[text:
 		name: "ADB Path",
-		description: "Path to adb executable. Default for nox is: C:\Program Files (x86)\Nox\bin\nox_adb.exe",
-		default: "C:\Program Files (x86)\Nox\bin\nox_adb.exe"
+		description: "Path to adb executable. Default for LDPlayer is: C:\XuanZhi\LDPlayer\adb.exe",
+		default: "C:\XuanZhi\LDPlayer\adb.exe"
 	]
 	
 	[text:
 		name: "ADB Device",
-		description: "Default for first nox emulator: 127.0.0.1:62001. Refer to guide to see how to find device.",
-		default: "127.0.0.1:62001"
+		description: "Default for first LDPlayer emulator: emulator:5554 or 127.0.0.1:5555. Refer to guide to see how to find device.",
+		default: "127.0.0.1:5555"
 	]
 	
 	[text:
 		name: "ADB Shared Folder1",
-		description: "Shared folder within the emulator. Default for nox: /mnt/shared/App/",
-		default: "/mnt/shared/App/"
+		description: "Shared folder within the emulator. Default for LDPLayer: /sdcard/Pictures",
+		default: "/sdcard/Pictures"
 	]
 	
 	[text:
 		name: "ADB Shared Folder2",
-		description: "Shared folder in windows directory. Default for nox is: C:\Users\[USER NAME]\Nox_share\App\",
+		description: "Shared folder in windows directory. Default for LDPlayer is: C:/Users/[USER NAME]/Documents/XuanZhi/Pictures/",
 		default: "~"
 	]
 	
 	[combo:
 		name: "ADB Method",
-		description: "'input event' is slower to respond, but works with all ADB. 'sendevent' is faster to respond, but specific to Nox client. The sendevent tries to automatically find the device to send information to, but fails on some clients.",
+		description: "'input event' is slower to respond, but works with all ADB. 'sendevent' is faster to respond, but specific to LDPlayer client. The sendevent tries to automatically find the device to send information to, but fails on some clients.",
 		default: "input event",
 		data: "input event,sendevent"
 	]
@@ -111,13 +104,13 @@
 	[text:
 		name: "Emulator Title",
 		description: "This can be found using the AutoIt Window Info, using the Finder Tool.",
-		default: "NoxPlayer"
+		default: "LDPlayer"
 	]
 	
 	[text:
 		name: "Emulator Property",
 		description: "Properties include: CLASS, TEXT, INSTANCE, X, Y, WIDTH, HEIGHT. Information can be found using AutoIt Window Info.",
-		default: "[CLASS:Qt5QWindowIcon; TEXT:ScreenBoardClassWindow]"
+		default: "[CLASS:subWin; INSTANCE:1]"
 	]
 
 	[text:
@@ -135,7 +128,7 @@
 	
 	[combo:
 		name: "Mouse Mode",
-		description: "Mode of sending clicks to emulators. Control: Sends click messages directly to emulator. ADB: Sends command to emulator ADB, generally slower. Real: Uses mouse cursor to click emulator screen.",
+		description: "Mode of sending clicks to emulators. Control: Sends click messages directly to emulator (Every time you click, it brings the window in front). ADB: Sends command to emulator ADB. Real: Uses mouse cursor to click emulator screen.",
 		default: "Control",
 		data: "Control,ADB,Real"
 	]
