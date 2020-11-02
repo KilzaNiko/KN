@@ -70,27 +70,34 @@
 	
 	[text:
 		name: "ADB Shared Folder1",
-		description: "Shared folder within the emulator. Default for LDPLayer: /mnt/shared/App/",
-		default: "/mnt/shared/App/"
+		description: "Shared folder within the emulator. Default for LDPLayer: /sdcard/Pictures",
+		default: "/sdcard/Pictures"
 	]
 	
 	[text:
 		name: "ADB Shared Folder2",
-		description: "Shared folder in windows directory. Default for LDPlayer is: C:\Users\[USER NAME]\Documents\XuanZhi\Applications\",
+		description: "Shared folder in windows directory. Default for LDPlayer is: C:/Users/[USER NAME]/Documents/XuanZhi/Pictures/",
 		default: "~"
 	]
 	
 	[combo:
 		name: "ADB Method",
-		description: "'input event' is slower to respond, but works with all ADB. 'sendevent' is faster to respond, but specific to Nox client. The sendevent tries to automatically find the device to send information to, but fails on some clients.",
+		description: "'input event' is slower to respond, but works with all ADB. 'sendevent' is faster to respond, but specific to LDPlayer client. The sendevent tries to automatically find the device to send information to, but fails on some clients.",
 		default: "input event",
 		data: "input event,sendevent"
+	]
+
+	[combo:
+		name: "ADB KNclicks",
+		description: "All clicks are much faster than normal, but in some cases the emulator cannot catch the click, it rarely happens, but it is recommended to keep this option disabled for now.",
+		default: "Disabled",
+		data: "Enabled,Disabled"
 	]
 	
 	[combo:
 		name: "ADB Input Event Version",
 		description: "0 is the most stable, but runs slower. 1 is faster, but does not work well with slower computers.",
-		default: "1",
+		default: "0",
 		data: "0,1"
 	]
 	
@@ -122,7 +129,7 @@
 	[combo:
 		name: "Mouse Mode",
 		description: "Mode of sending clicks to emulators. Control: Sends click messages directly to emulator (Every time you click, it brings the window in front). ADB: Sends command to emulator ADB. Real: Uses mouse cursor to click emulator screen.",
-		default: "ADB",
+		default: "Control",
 		data: "Control,ADB,Real"
 	]
 	
@@ -176,8 +183,8 @@
 	
 	[text:
 		name: "Guided Auto",
-		description: "Amount of delay between clicks in milliseconds. Default is 100 ms. Faster computers can do 0 ms.",
-		default: "100"
+		description: "Amount of delay between clicks in milliseconds. Default is 200 ms. Faster computers can do 150 ms.",
+		default: "200"
 	]
 	
 	[text:
