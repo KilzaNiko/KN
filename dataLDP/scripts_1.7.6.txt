@@ -9,7 +9,7 @@
 	
 	[combo:
 		name: "Scheduled Restart",
-		description: "Restart game to prevent lagging overtime. MSL seems to lag after a long time. Game means just restart game process without restarting emulator. Nox means restarting the entire Nox process.",
+		description: "Restart game to prevent lagging overtime. MSL seems to lag after a long time. Game means just restart game process without restarting emulator. LDPlayer means restarting the entire LDPlayer process.",
 		default: "Never",
 		data: "Never,Game:1H,Game:2H,Game:3H,Game:4H,Game:5H,Game:6H,Game:7H,Game:8H,Game:9H,Game:10H,Game:11H,Game:12H,Nox:1H,Nox:2H,Nox:3H,Nox:4H,Nox:5H,Nox:6H,Nox:7H,Nox:8H,Nox:9H,Nox:10H,Nox:11H,Nox:12H"
 	]
@@ -177,7 +177,7 @@
 	
 	[text:
 		name: "Restart Timeout",
-		description: "How much time in SECONDS the RestartGame or RestartNox will wait for the game to load before timing out.",
+		description: "How much time in SECONDS the RestartGame or RestartLDPlayer will wait for the game to load before timing out.",
 		default: "300"
 	]
 	

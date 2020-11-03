@@ -177,7 +177,7 @@
 	
 	[text:
 		name: "Restart Timeout",
-		description: "How much time in SECONDS the RestartGame or RestartNox will wait for the game to load before timing out.",
+		description: "How much time in SECONDS the RestartGame or RestartLDPlayer will wait for the game to load before timing out.",
 		default: "300"
 	]
 ]
