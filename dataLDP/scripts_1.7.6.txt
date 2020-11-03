@@ -58,8 +58,8 @@
 
 	[text:
 		name: "ADB Path",
-		description: "Path to adb executable. Default for LDPlayer is: C:\XuanZhi\LDPlayer\adb.exe",
-		default: "C:\XuanZhi\LDPlayer\adb.exe"
+		description: "Path to adb executable. Default for LDPlayer is: C:\LDPlayer\LDPlayer4.0\adb.exe",
+		default: "C:\LDPlayer\LDPlayer4.0\adb.exe"
 	]
 	
 	[text:
