@@ -64,7 +64,7 @@
 	
 	[text:
 		name: "ADB Device",
-		description: "Default for first LDPlayer emulator: emulator:5554 or 127.0.0.1:5555. Refer to guide to see how to find device.",
+		description: "Default for first LDPlayer emulator: emulator-5554 or 127.0.0.1:5555. Refer to guide to see how to find device.",
 		default: "127.0.0.1:5555"
 	]
 	
