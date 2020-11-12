@@ -956,7 +956,14 @@
 		data: "Legendary,Exotic,Super Rare,Rare,Variant"
 	]
 	
-  [text:
+	[combo:
+		name: "Only 4star Exotic",
+		description: "Only catch 4-star exotics",
+		default: "Disabled",
+		data: "Enabled,Disabled"
+	]
+
+  	[text:
 		name: "Refill",
 		description: "Enter the maximum amount of Astrogems the bot can use. Entering 0 will ignore this feature.",
 		default: "300"
@@ -966,13 +973,6 @@
 		name: "Target Boss",
 		description: "During the final round, you can choose to target boss for efficiency.",
 		default: "Enabled",
-		data: "Enabled,Disabled"
-	]
-	
-	[combo:
-		name: "Only 4star Exotic",
-		description: "Only catch 4-star exotics",
-		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
 ]
