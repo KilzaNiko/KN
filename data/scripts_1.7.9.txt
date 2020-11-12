@@ -957,7 +957,7 @@
 	
 	[combo:
 		name: "Only 4star Exotic",
-		description: "Only catch 4-star exotics",
+		description: "Only catch 4-star exotics, you must have "exotic" added to the capture list",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
