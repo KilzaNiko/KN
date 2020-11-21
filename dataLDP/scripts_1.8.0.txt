@@ -210,6 +210,12 @@
 		description: "Waiting time to collect gems from friends, If your internet connection is slow, you should increase the delay or if at the time of sending energy to friends the bot does not charge the gems, you must increase the number of this option.",
 		default: "2500"
 	]
+
+	[text:
+		name: "Enter Stage",
+		description: "Delay for the click when entering a level of the map (continents), if you have a problem with the autofill of astrochips, increase the number to 1000 (example 5000 -> 6000).",
+		default: "5000"
+	]
 ]
 
 [_General:
