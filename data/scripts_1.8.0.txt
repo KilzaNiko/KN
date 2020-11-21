@@ -950,7 +950,7 @@
 
 	[combo:
 		name: "Only 4star Exotic",
-		description: "Only catch 4-star exotics, It doesn't matter whether or not you have "exotics" added to the capture list, it will still capture the 4-star exotics and ignore the 3-star ones.",
+		description: "Only catch 4-star exotics, It doesnt matter whether or not you have 'exotics' added to the capture list, it will still capture the 4-star exotics and ignore the 3-star ones.",
 		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
