@@ -345,16 +345,16 @@
 	]
 
 	[combo:
-		name: "Buy First Item",
-		description: "Buy the first item in shady shop every hour.",
-		default: "Enabled",
+		name: "Shop Buy",
+		description: "To be able to use the shop-in scripts (eggs and soulstones), this option must be activated.",
+		default: "Disabled",
 		data: "Enabled,Disabled"
 	]
 
 	[combo:
-		name: "Shop Buy",
-		description: "To be able to use the shop-in scripts (eggs and soulstones), this option must be activated.",
-		default: "Disabled",
+		name: "Buy First Item",
+		description: "Buy the first item in shady shop every hour. [The 'Shop Buy' script must be activated]",
+		default: "Enabled",
 		data: "Enabled,Disabled"
 	]
 
