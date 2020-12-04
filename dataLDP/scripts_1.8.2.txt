@@ -76,7 +76,7 @@
 	
 	[text:
 		name: "ADB Shared Folder2",
-		description: "Shared folder in windows directory. Default for LDPlayer is: C:/Users/[USER NAME]/Documents/XuanZhi/Pictures/",
+		description: "Shared folder in windows directory. Default for LDPlayer is: C:/Users/[USER NAME]/Documents/XuanZhi/Pictures",
 		default: "~"
 	]
 	
