@@ -356,39 +356,11 @@
 		data: "Enabled,Disabled"
 	]
 
-	[combo:
-		name: "Buy High Secret Egg",
-		description: "Buy Secret Egg, in case there is a secret egg available. [The 'Shop Buy' script must be activated]",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
-
-	[combo:
-		name: "Buy Elemental Egg",
-		description: "Buy Elemental Egg (Water, Wood and Fire), in case there is a elemental egg available.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
-
-	[combo:
-		name: "Buy Light Dark Low Egg",
-		description: "Buy Light / Dark low egg, in case there is a L/D low egg available.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
-
-	[combo:
-		name: "Buy Soulstone 4 stars",
-		description: "Buy soulstone 4 stars (x5 and x1), where soulstone is available.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
-	]
-
-	[combo:
-		name: "Buy Soulstone 5 stars",
-		description: "Buy soulstone 5 stars (x1), where soulstone is available.",
-		default: "Disabled",
-		data: "Enabled,Disabled"
+	[list:
+		name: "Buy Items",
+		description: "Items to buy in Shop.",
+		default: "Secret Egg,Elemental Egg",
+		data: "Secret Egg,Elemental Egg,Light Dark Low Egg,Soulstone 4 stars,Soulstone 5 stars"
 	]
 ]
 
