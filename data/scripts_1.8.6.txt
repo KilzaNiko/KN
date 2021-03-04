@@ -359,7 +359,7 @@
 	[list:
 		name: "Buy Items",
 		description: "Items to buy in Shop.",
-		default: "Secret Egg,Elemental Egg",
+		default: "Secret Egg",
 		data: "Secret Egg,Elemental Egg,Light Dark Low Egg,Soulstone 4 stars,Soulstone 5 stars"
 	]
 ]
