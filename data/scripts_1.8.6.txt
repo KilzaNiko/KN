@@ -72,14 +72,14 @@
 	[combo:
 		name: "Emulator Console",
 		description: "'ldconsole' (LDPlayer), 'noxconsole' (NoxPlayer), 'memuc' (MEmu)",
-		default: "noxconsole",
+		default: "ldconsole",
 		data: "ldconsole,noxconsole,memuc"
 	]
 	
 	[text:
 		name: "Emulator Title",
 		description: "Emulator Title. Default 'LDPlayer' (LDPlayer), 'NoxPlayer' (NoxPlayer), 'MEmu' (MEmu)",
-		default: "NoxPlayer"
+		default: "LDPlayer"
 	]
 	
 	[text:
