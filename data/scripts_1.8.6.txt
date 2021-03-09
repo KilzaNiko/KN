@@ -329,7 +329,7 @@
 	]
 
 	[combo:
-		name: "Three Gold Dungeon Attacks",
+		name: "Gold Dungeon Three Attacks",
 		description: "If there is more than 1 attack available, he will surrender until he has 1 attack and will complete the dungeon.",
 		default: "Disabled",
 		data: "Enabled,Disabled"
