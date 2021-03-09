@@ -1348,3 +1348,32 @@
 		data: "Enabled,Disabled"
 	]
 ]
+
+[Farm_Wings:
+	[description: "Wait to do hourly/daily operations and consume wings using the selected script."]
+
+	[combo:
+		name: "Script",
+		description: "Script to do every Idle Time (in minutes).",
+		default: "Farm_Golem",
+		data: "Farm_Golem,Farm_Rare,Farm_Starstone"
+	]
+
+	[text:
+		name: "Runs",
+		description: "Number of runs the script should perform before stopping. Entering 0 will cause the script to run indefinitely.",
+		default: "5"
+	]
+	
+	[text:
+		name: "Refill",
+		description: "Enter the maximum amount of Astrogems the bot can use. Entering 0 will ignore this feature. 1 will never refill",
+		default: "1"
+	]
+	
+	[text:
+		name: "Idle Time",
+		description: "Bot will remain idle to wait x minutes for wings to refresh.",
+		default: "60"
+	]
+]
