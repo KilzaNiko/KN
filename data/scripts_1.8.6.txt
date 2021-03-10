@@ -516,7 +516,7 @@
 		name: "Check Intervals",
 		description: "Bot will check for available matches and attack at this interval.",
 		default: "60 Minutes",
-		data: "30 Minutes,60 Minutes,120 Minutes,150 Minutes,180 Minutes,210 Minutes,240 Minutes,270 Minutes,300 Minutes"
+		data: "10 Minutes,20 Minutes,30 Minutes,60 Minutes,120 Minutes,150 Minutes,180 Minutes,210 Minutes,240 Minutes,270 Minutes,300 Minutes"
 	]
 	
 	[combo:
@@ -808,7 +808,7 @@
 		name: "Idle Time",
 		description: "Bot will remain idle to wait for tickets to refresh.",
 		default: "30 minutes",
-		data: "Never,10 Minutes,20 Minutes,30 Minutes,60 Minutes,120 Minutes,240 Minutes"
+		data: "Never,20 Minutes,30 Minutes,60 Minutes,120 Minutes,240 Minutes"
 	]
 	
 	[combo:
